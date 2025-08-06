@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import './index.css';
 function App(){
   return (
-    <Router>
+    <Router basename="/">
       <nav>
         <Link to="/">Home</Link>
         <Link to="/todos">Todos</Link>
